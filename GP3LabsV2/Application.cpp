@@ -378,7 +378,6 @@ void Application::GameInit()
 	e->GetTransform()->SetPosition(glm::vec3(0, -2, -20));
 	e->GetTransform()->SetScale(glm::vec3(9.0f, 9.0f, 9.0f));
 
-
 	//container object
 	e = new Entity();
 	m_entities.push_back(e);
@@ -411,7 +410,7 @@ void Application::GameInit()
 	e->GetTransform()->SetPosition(glm::vec3(0, -9, -18));
 	e->GetTransform()->SetScale(glm::vec3(0.025f, 0.02f, 0.02f));
 
-	//eyeball object
+	//eyeball objects
 	e = new Entity();
 	m_entities.push_back(e);
 	e->AddComponent(
